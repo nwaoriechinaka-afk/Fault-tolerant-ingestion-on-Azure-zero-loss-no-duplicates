@@ -1,0 +1,15 @@
+{
+	"name": "azureuaenorthchi",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2aee0eaa-af51-4a24-bf49-5b9749193834",
+		"tenantId": "650064a0-0a33-453e-8861-bbdc88984ea5"
+	}
+}
