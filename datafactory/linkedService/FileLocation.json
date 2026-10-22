@@ -1,0 +1,17 @@
+{
+	"name": "FileLocation",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\HP\\Downloads\\raw\\cdc\\customers\\ingest_date=2026-10-18",
+			"userId": "chiii1234",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2NWRhMDE3OC1iYTg4LTQwM2YtODliZi02ZDQ0MzY2M2U2NDciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onPremToAzureintergrationRuntiime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
